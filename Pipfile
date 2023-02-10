@@ -11,6 +11,11 @@ pathlib = "*"
 pandas = "*"
 numpy = "*"
 rfeed = "*"
+requests = "*"
+beautifulsoup4 = "*"
+datasette = "*"
+csvs-to-sqlite = "*"
+datasette-publish-vercel = "*"
 
 [dev-packages]
 
