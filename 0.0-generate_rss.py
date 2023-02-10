@@ -1,5 +1,4 @@
 # Import libraries
-import re
 import requests
 import rfeed
 from bs4 import BeautifulSoup
@@ -63,6 +62,6 @@ feed = rfeed.Feed(
 rss = feed.rss()
 
 # Save rss as 'xml' file
-with open("./assets/cij.xml", "w") as f:
+with open("./assets/cij-ar.xml", "w") as f:
     f.write(rss)
 
