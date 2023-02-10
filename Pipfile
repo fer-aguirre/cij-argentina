@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+setuptools = "*"
+pyprojroot = "*"
+pathlib = "*"
+pandas = "*"
+numpy = "*"
+rfeed = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "*"
